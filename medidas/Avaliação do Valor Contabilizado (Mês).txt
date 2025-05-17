@@ -1,0 +1,7 @@
+Avaliação do Valor Contabilizado (Mês) = 
+VAR acc_valor = SUM('public fTerreno'[valor_contabilizado])
+var MES_anterior = CALCULATE(SUM('public fTerreno'[valor_contabilizado]), PREVIOUSMONTH('public dCalendario'[data]))
+var final = IF(MES_anterior = BLANK(), BLANK(), MES_anterior)
+
+RETURN
+acc_valor - final

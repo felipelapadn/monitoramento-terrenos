@@ -1,0 +1,5 @@
+Estado com mais terrenos registrados = 
+var dist_prop = SUMMARIZE('public dLocal', 'public dLocal'[uf], "dist", [Contagem de Terrenos])
+
+RETURN
+MAXX(TOPN(1, dist_prop, [dist], DESC), 'public dLocal'[uf])

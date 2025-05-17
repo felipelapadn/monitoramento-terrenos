@@ -1,0 +1,5 @@
+Número de terrenos abaixo da Média de Ocupação = 
+
+var linhas_filtradas = SUMX('public fTerreno', IF('public fTerreno'[area_construida] < [Média de Ocupação], 1, 0))
+
+return linhas_filtradas

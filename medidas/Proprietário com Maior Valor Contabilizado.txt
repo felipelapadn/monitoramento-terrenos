@@ -1,0 +1,5 @@
+Proprietário com Maior Valor Contabilizado = 
+var dist_prop = SUMMARIZE('public dProprietario', 'public dProprietario'[proprietario], "dist", SUM('public fTerreno'[valor_contabilizado]))
+
+RETURN
+MAXX(TOPN(1, dist_prop, [dist], DESC), 'public dProprietario'[proprietario])

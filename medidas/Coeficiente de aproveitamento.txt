@@ -1,0 +1,1 @@
+Coeficiente de aproveitamento = DIVIDE(SUM('public fTerreno'[area_construida]), SUM('public fTerreno'[area_terreno]))

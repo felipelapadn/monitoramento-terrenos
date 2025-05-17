@@ -1,0 +1,5 @@
+Tipo mais presente = 
+var dist_prop = SUMMARIZE('public dTipo', 'public dTipo'[tipo], "dist", COUNT('public fTerreno'[id_tipo]))
+
+RETURN
+MAXX(TOPN(1, dist_prop, [dist], DESC), 'public dTipo'[tipo])

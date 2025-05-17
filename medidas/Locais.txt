@@ -1,0 +1,1 @@
+Locais = CALCULATE(DISTINCTCOUNT('public fTerreno'[id_local]))

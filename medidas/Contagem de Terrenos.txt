@@ -1,0 +1,1 @@
+Contagem de Terrenos = COUNTROWS('public fTerreno')

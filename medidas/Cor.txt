@@ -1,0 +1,1 @@
+Cor = IF([Avaliação do Valor Contabilizado (Mês)] < 0, "#f25845",  "#54db63")

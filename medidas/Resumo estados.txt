@@ -1,0 +1,1 @@
+Resumo estados = SUMX(FILTER('public fTerreno',  RELATED('public dLocal'[id_local])), 'public fTerreno'[valor_contabilizado])
