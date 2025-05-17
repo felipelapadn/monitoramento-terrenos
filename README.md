@@ -113,4 +113,4 @@ Tipos como Base e Faculdade se destacam em valor, enquanto Universidade apresent
 
 ## Autor
 
-**Felipe Lapa do Nascimento** ([LinkedIn](https://www.linkedin/felipelapadn.com) | [Email](mailto:felipelapadn@gmail.com)) 
+**Felipe Lapa do Nascimento** ([LinkedIn](https://www.linkedin.com/in/felipelapadn/) | [Email](mailto:felipelapadn@gmail.com)) 
