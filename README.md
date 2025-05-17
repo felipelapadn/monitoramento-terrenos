@@ -37,7 +37,7 @@ Foi adotado um **modelo estrela** com a tabela fato `fTerreno` e as seguintes di
 
 ![Modelo Estrela](imagens/modelo-estrela.jpg)
 
-## 🧹 Limpeza e Transformação dos Dados
+## Limpeza e Transformação dos Dados
 
 ### Tratamento de Valores Nulos
 
